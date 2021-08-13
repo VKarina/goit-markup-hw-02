@@ -3,7 +3,162 @@ Roboto medium(500)
 Roboto black (900)
 Roboto bold
 Roboto regular (400)
+colors
+#000000 Studio
+#2196F3 Web, accent e-mail, кнопки
+#212121 студия, портфолио, контакты, заголовки во второй секции, чем мы занимаемся
+#757575 tel number, текст параграфов во второй секции
+#2F303A background-color Эффективные решения
+#FFFFFF Эффективные решения, надпись на кнопке "заказать"
+#F5F4FA main background color
 */
+:root {
+  --accent-color: #2196f3;
+  --secondary-title-color: #212121;
+  --main-title-color: #ffffff;
+  --main-text-color: #757575;
+  --button-color: #f5f4fa;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-header {
+  color: #000000;
+}
+.logo-footer {
+  color: #ffffff;
+}
+
+/* Header */
+.header-section {
+  background-color: #ffffff;
+}
+.header-link {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.main-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Advantages */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* Examples */
+.examples-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+/* Our team */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* Footer */
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }

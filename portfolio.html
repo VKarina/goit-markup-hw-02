@@ -14,25 +14,31 @@
     <title>Портфолио</title>
   </head>
   <body>
-    <!-- Шапка -->
-    <header>
+    <!-- Шапка сайта -->
+    <header class="header-section">
       <nav>
-        <a href="./index.html" lang="en">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li>Контакты</li>
+        <a href="./index.html" lang="en" class="logo link logo-header"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <ul class="list">
+          <li><a href="./index.html" class="link header-link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link header-link">Портфолио</a></li>
+          <li><a href="" class="link header-link">Контакты</li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link header-contacts"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link header-contacts">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <h1 hidden>Наши работы</h1>
       <section>
-        <ul>
+        <ul class="list">
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
           <li><button type="button">Приложения</button></li>
@@ -41,7 +47,7 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/port1.jpg" alt="Технокряк" />
             <h2>Технокряк</h2>
@@ -92,12 +98,15 @@
     </main>
 
     <!-- Футер -->
-    <footer>
+    <footer class="footer-section">
+      <a href="./index.html" class="logo link logo-footer"
+        ><span class="logo-web">Web</span>Studio</a
+      >
       <address>
-        <a href="./index.html">WebStudio</a><br />
-        г. Киев, пр-т Леси Украинки, 26<br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <div class="footer-address">г. Киев, пр-т Леси Украинки, 26</div>
+        <a href="mailto:info@example.com" class="link footer-contacts">info@example.com</a
+        ><br />
+        <a href="tel:+380991111111" class="link footer-contacts">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>
